@@ -14,7 +14,7 @@ class Solution(object):
         # and num and num2 are their respective values found during each loop.
         for i, num in enumerate(nums):
             for j, num2 in enumerate(nums):
-                # If the number at index i plus the number at index j equal the target, and i is not the same as j
+                # If the number at index i plus the number at index j equal the target, and i is not the same as j,
                 if nums[i] + nums[j] == target and i!=j:
                     # Then return the two indices
                     return [i, j];
